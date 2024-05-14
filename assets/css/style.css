@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+    --bg: #0f0f0f;
+    --primary: #66f;
+    --border: #ccc;
+    --gray: #e7e7e7;
+    --gray2: #909090;
+    --text: #000;
+    --white: #fff;
+    --font: "Roboto", sans-serif;
+}
+
+*, h5, p {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--text);
+    background-color: var(--gray);
+    display: flex;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+/* style aside */
+aside {
+  width: 400px;
+  height: 100vh;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.user-card {
+  display: flex;
+  border-top: solid 1px #ffffff5f;
+  padding: 1.25rem;
+  color: var(--white);
+}
+
+
+.user-card img{
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.item-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #ffffff5f;
+}
+
+.item-principal .item-principal-action span {
+  margin-left: 12px;
+}
+
+
+.data-user h5 {
+  font-weight: 300;
+}
+
+.data-user p {
+  font-weight: 800;
+}
+
+/* Style Col right */
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  height: 40px;
+}
+
+ /* btn nuevo chat */
+.nuevo-chat-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nuevo-chat-div .btn {
+  padding: 10px;
+}
+
+.btn {
+  border: 0;
+  padding: 0.8em 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: blueviolet;
+  color: white;
+}
